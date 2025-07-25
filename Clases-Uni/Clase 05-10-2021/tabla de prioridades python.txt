@@ -1,0 +1,21 @@
+Prioridad	Operador	
+1	       ~, +, -	         unario(not, mas, menos)
+2	       **	             (exponencial)
+3	       *, /, //, %	     (multiplicar, dividir, dividir y solo entero, modulo)
+4	       +, -	             binario
+5	       <<, >>	         (desplazar izquierda, desplazar derecha)
+6	       <, <=, >, >=	     (comparadores logicos)
+7	       ==, !=	         (igual a, diferente de)
+8	       &	             (and bit por bit)
+9	       |	             (or bit por bit)
+10	       =, +=, -=, *=, /=, %=, &=, ^=, |=, >>=, <<=	
+
+101
+001
+
+001
+101
+010
+
+001
+10100
