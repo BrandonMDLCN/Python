@@ -35,7 +35,7 @@ my_tuple = (1, 2.0, "cadena", [3, 4], (5, ), True)
 # Sin embargo, se puede eliminar la tupla completa:
 my_tuple = 1, 2, 3,
 del my_tuple
-print(my_tuple) # NameError: name 'my_tuple' is not defined
+"""print(my_tuple)""" # NameError: name 'my_tuple' is not defined
  
 # También se puede crear una tupla utilizando la función integrada de Python tuple().
 my_tuple = tuple((1, 2, "cadena"))

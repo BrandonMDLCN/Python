@@ -18,7 +18,7 @@ for spanish, french in dictionary.items():
     print(spanish, "->", french);
 
 # Modificar, agregar y eliminar valores
-print("Modificar, agregar y eliminar valores")
+print("\nModificar, agregar y eliminar valores")
 # El asignar un nuevo valor a una clave existente es sencillo - debido a que los diccionarios son completamente mutables, no existen obstáculos para modificarlos.
 dictionary = {"gato": "chat", "perro": "chien", "caballo": "cheval"}
  
@@ -32,7 +32,7 @@ for key in sorted(dictionary.keys()):
 
 
 # También existe un método denominado values()
-print("values()")
+print("\nvalues()")
 # funciona de manera muy similar al de keys(), pero regresa una lista de valores.
 dictionary = {"gato": "chat", "perro": "chien", "caballo": "cheval"}
  
@@ -40,7 +40,7 @@ for french in dictionary.values():
     print(french);
 
 # Agregando nuevas claves
-print("Agregando nuevas claves")
+print("\nAgregando nuevas claves")
 # se tiene que asignar un valor a una nueva clave que no haya existido antes.
 # A continuación se agrega un par nuevo al diccionario - un poco extraño pero válido:
 dictionary = {"gato": "chat", "perro": "chien", "caballo": "cheval"}
@@ -49,7 +49,7 @@ dictionary['cisne'] = 'cygne'
 print(dictionary)
 
 # Eliminado una clave
-print("Eliminado una clave")
+print("\nEliminado una clave")
 # al eliminar la clave también se removerá el valor asociado. 
 # Los valores no pueden existir sin sus claves.
 dictionary = {"gato": "chat", "perro": "chien", "caballo": "cheval"}

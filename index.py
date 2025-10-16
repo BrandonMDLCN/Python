@@ -1,14 +1,12 @@
-board = [[i for i in range(8)] for j in range(8)]
-
-print(board)
-
-board[0][0] = "ROOK"
-board[0][7] = "ROOK"
-board[7][0] = "ROOK"
-board[7][7] = "ROOK"
-
-board[4][2] = "KNIGHT"
-
-board[3][4] = "PAWN"
-
-print(board)
+def high(x):
+    defragmentar = list(str(x));
+    multiplicador = len(defragmentar);
+    expandedForm = ''
+    for i in range(len(defragmentar)):
+        defragmentar[i] = defragmentar[i]+('0'*(multiplicador-1))
+        multiplicador -= 1;
+        if defragmentar[i] != '0'*(len(defragmentar[i])):
+            expandedForm += defragmentar[i] + ' + '
+    expandedForm = expandedForm[:-3]
+    return expandedForm
+print(high(70304))
