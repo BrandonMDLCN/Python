@@ -1,3 +1,30 @@
+""" 
+Antes que nada recuerda de que es buena practica usar entornos virtuales para tus proyectos en Python.
+El uso de entornos virtuales te permite gestionar dependencias y paquetes de manera aislada para cada proyecto, 
+evitando conflictos entre diferentes proyectos y manteniendo tu entorno de desarrollo limpio.
+
+Crear y activar un entorno virtual es sencillo. Aquí te dejo los pasos básicos:
+1. Crear un entorno virtual:
+    python -m venv nombre_del_entorno
+2. Activar el entorno virtual:
+    - En Windows:
+        nombre_del_entorno\Scripts\activate
+    - En macOS y Linux:
+        source nombre_del_entorno/bin/activate
+Una vez que el entorno virtual esté activado, cualquier paquete que instales usando pip se instalará únicamente en ese entorno,
+sin afectar al resto de tu sistema o a otros proyectos.
+
+Ahora recuerda que para trabajar con el entorno virtual en Visual Studio Code,
+asegúrate de seleccionar el intérprete de Python correcto asociado con tu entorno virtual.
+
+Use the Python: Select Interpreter command from the Command Palette (Ctrl+Shift+P) and select the python interpreter that belongs to the new virtual environment.
+
+Enlace con mas info:
+https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#create-and-use-virtual-environments
+https://code.visualstudio.com/docs/python/environments
+https://stackoverflow.com/questions/54009081/how-can-i-debug-a-python-code-in-a-virtual-environment-using-vscode
+"""
+
 """ # 1.4.3 How to install pip """
 
 # The question that should be put now is: how to get a proper cheese knife? In other words, how to ensure that pip is installed and ready to work?
