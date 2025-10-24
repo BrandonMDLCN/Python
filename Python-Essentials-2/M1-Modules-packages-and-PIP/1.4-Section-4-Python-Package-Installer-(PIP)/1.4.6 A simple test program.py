@@ -36,3 +36,40 @@ while run:
 # lines 14 through 16: check whether the user has closed the window or clicked somewhere inside it or pressed any key;
 # line 15: if yes, stop executing the code.
 # This is what we expect from our impressive code:
+
+      # Welcome to pygame
+
+# The pip install has two important additional abilities:
+
+  # it is able to update a locally installed package – e.g., if you want to make sure that you’re using the latest version of a particular package, 
+    # you can run the following command:
+
+# pip install -U package_name
+
+
+# where -U means update. Note: this form of the command makes use of the --user option for the same purpose as presented previously;
+
+  # it is able to install a user-selected version of a package (pip installs the newest available version by default); 
+    # to achieve this goal you should use the following syntax:
+    
+# pip install package_name==package_version
+
+# (note the double equals sign) e.g.,
+
+# pip install pygame==1.9.2
+
+# If any of the currently installed packages are no longer needed and you want to get rid of them, pip will be useful, too. 
+# Its uninstall command will execute all the needed steps.
+
+# The required syntax is clear and simple:
+
+# pip uninstall package_name
+
+# so if you don't want pygame anymore, you can execute the following command:
+
+# pip uninstall pygame
+
+# Pip will want to know if you’re sure about the choice you're making – be prepared to give the right answer.
+
+# The process looks like this:
+
